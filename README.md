@@ -1,1 +1,30 @@
-# Reactive-Streams
+**Reactive-Streams**
+**Aim** - Implement and understand key Reactive Streams Operators using RxJS in JavaScript.
+
+**Key Operators**
+**map()**	: Transforms each emitted value.
+**filter()** : 	Emits values meeting a condition.
+**reduce()	**: Accumulates values into one result.
+**mergeMap() / flatMap()**	: Maps values to inner observables and merges them.
+**concatMap()**	: Runs inner observables sequentially.
+**merge()**	: Merges multiple observables concurrently.
+**concat()**	: Combines observables in sequence.
+**zip()**	: Combines values by emission index.
+
+**Setup**
+# 1. Create folder
+mkdir reactive-streams && cd reactive-streams
+
+# 2. Initialize project
+npm init -y
+
+# 3. Install RxJS
+npm install rxjs
+
+# 4. Create file
+notepad / vs code name each file with operator name followed by .java extension 
+
+**Run**
+node file name 
+
+
